@@ -20,6 +20,21 @@
     color: white;
     text-align: center;
 }
+.btn-secondary{
+    width: 186px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #E95A08;
+    color: white;
+    text-align: center;
+    
+}
 .btn-second{
     background:none;
     border: none;
@@ -87,8 +102,6 @@
 /* card container */
 .card{
     width: 345px;
-    border: 2px solid #E95A08;
-    
 }
 .card-title{
     font-weight: bold;
@@ -155,7 +168,9 @@
     padding: 0px;
 }
 /* latest deals */
-
+.latest-deal{
+    margin-bottom: 120px;
+}
 .deal-banner{
     text-align: center;
 }
@@ -223,6 +238,38 @@
     color: white;
     font-size: 2.5rem;
     background-color: rgba(0, 0, 0, 0.4); 
+}
+/* newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../assets/news-letter-bg.png);
+    height: 533px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+}
+.news-title{
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.newsletter input[type="email"]{
+    height: 50px;
+    width: 644px;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    padding-left: 25px;
+
 }
 
 
@@ -390,6 +437,43 @@
     width: 350px; 
     height: 184px;            
     font-size: 1.25rem;
+  }
+  /* newsletter */
+
+  .newsletter {
+    height: 275px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px; /* Optional: for better spacing */
+  }
+
+  .news-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 218px;
+    height: 50px;
+    padding-left: 12px;
+    margin: 0; /* remove any margin that breaks the layout */
+    border: none;
+    outline: none;
+  }
+
+  .newsletter button {
+    width: 103px;
+    height: 50px;
+    padding: 19px 12px;
+    margin: 0;
+    border: none;
+    outline: none;
+  }
+  .newsletter-form {
+    display: flex;
+    flex-direction: row;
   }
 
 }
