@@ -20,6 +20,13 @@
     color: white;
     text-align: center;
 }
+.btn-second{
+    background:none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
 .btn-text{
 
 }
@@ -57,7 +64,7 @@
 .nav-link{
     text-decoration: none;  
 }
-.navbar, .banner, .card-section, .plant-lovers {
+.navbar, .banner, .card-section, .plant-lovers, .deal-images {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -146,6 +153,76 @@
     margin-top: 100px;
     margin-left: -60px;
     padding: 0px;
+}
+/* latest deals */
+
+.deal-banner{
+    text-align: center;
+}
+.deal-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin-bottom: 16px;
+}
+.deal-description{
+    font-size: 1.375rem;
+    margin-bottom: 110px;
+}
+.deal-images{
+    display: flex;
+    justify-content:space-evenly;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 367px;
+    height: 201px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/deal-bloom.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 14px;
+    color: white;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 25px; 
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 367px;
+    height: 201px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/deal-ana.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 14px;
+    color: white;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 753px;
+    height: 423px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/deal-zabo.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 14px;
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.4); 
 }
 
 
@@ -240,7 +317,9 @@
     padding-right: 0;
   }
 
-  
+  .card-section{
+    margin-bottom: 40px;
+  }
 
   .btn-primary {
     width: 100%;
@@ -255,11 +334,13 @@
     padding: 0;
     width: 361px;
     margin-top: 0px;
+
   }
 
   .plant-img {
     width: 345px;
     height: 396px;
+    margin-top: 0%;
   }
 
   .about-plants {
@@ -277,6 +358,38 @@
 
   .badge {
     display: none;
+  }
+  /* deals */
+  .deal-title {
+    font-size: 2rem;          
+    max-width: 90%;
+    margin: 0 auto 12px auto;
+    padding: 0 10px;
+  }
+
+  .deal-description {
+    font-size: 1rem;          
+    max-width: 90%;
+    margin: 0 auto 40px auto;
+    padding: 0 10px;
+  }
+
+  .deal-images {
+    flex-direction: column;   
+    gap: 20px;                
+    align-items: center;      
+  }
+
+  .card1, .card2, .card3 {
+    width: 350px;             
+    height: 184px;             
+    font-size: 1.25rem;       
+  }
+
+  .card3 {
+    width: 350px; 
+    height: 184px;            
+    font-size: 1.25rem;
   }
 
 }
