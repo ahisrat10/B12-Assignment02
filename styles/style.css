@@ -254,11 +254,12 @@
     align-items: center;
     padding: 0 16px;
     gap: 18px;
+    width: 361px;
   }
 
-  .plant-lovers img {
-    width: 100%;
-    height: auto;
+  .plant-img {
+    width: 358px;
+    height: 396px;
   }
 
   .about-plants {
@@ -267,8 +268,11 @@
     width: 100%;
   }
   .plants-tittle {
-  font-size: 1.375; 
+  font-size: 1.375rem; 
   white-space: nowrap;
+}
+.plants-description{
+    font-size: 0.88rem;
 }
 
   .badge {
