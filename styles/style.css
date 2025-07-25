@@ -395,8 +395,8 @@
     padding: 0;
     width: (100%-30px);
   }
-  .plants-tittle {
-  font-size: 1.375rem; 
+  .plants-title {
+  font-size: 1.3rem; 
   white-space: nowrap;
 }
 .plants-description{
