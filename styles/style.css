@@ -118,7 +118,7 @@
 /* Responsive media query */
 
 @media screen and (max-width: 576px) {
-  /* Navbar: stack properly */
+  /* Navbar */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -195,12 +195,24 @@
   }
 
   /* card */
-  
-  .card-container{
+  .card {
+    width: 172px;
+  }
+  .card-container {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
-    column-gap: 20px;
-}
+    column-gap: 10px;
+    row-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+
+  .btn-primary {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 
