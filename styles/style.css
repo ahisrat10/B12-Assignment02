@@ -252,20 +252,20 @@
    .plant-lovers {
     flex-direction: column;
     align-items: center;
-    padding: 0 16px;
-    gap: 18px;
+    padding: 0;
     width: 361px;
+    margin-top: 0px;
   }
 
   .plant-img {
-    width: 358px;
+    width: 345px;
     height: 396px;
   }
 
   .about-plants {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: (100%-30px);
   }
   .plants-tittle {
   font-size: 1.375rem; 
