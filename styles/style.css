@@ -20,6 +20,10 @@
     color: white;
     text-align: center;
 }
+.btn-primary:hover{
+    background-color: black;
+}
+
 .btn-secondary{
     width: 186px;
     height: 55px;
@@ -33,8 +37,12 @@
     background-color: #E95A08;
     color: white;
     text-align: center;
-    
 }
+
+.btn-secondary:hover{
+    background-color: black;
+}
+
 .btn-second{
     background:none;
     border: none;
@@ -79,7 +87,7 @@
 .nav-link{
     text-decoration: none;  
 }
-.navbar, .banner, .card-section, .plant-lovers, .deal-images {
+.navbar, .banner, .card-section, .plant-lovers, .deal-images, .about-section {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -271,7 +279,36 @@
     padding-left: 25px;
 
 }
-
+/* footer */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.option{
+    display: flex;
+}
+.option-item{
+    list-style: none;
+    margin-bottom: 32px;
+}
+.option-link{
+    text-decoration: none;
+}
+.option1{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.option2{
+    margin-right: 110px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 24px;
+}
 
 /* Responsive media query */
 
@@ -474,6 +511,52 @@
   .newsletter-form {
     display: flex;
     flex-direction: row;
+  }
+
+  /* footer */
+  .about-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about-section * {
+    font-size: 1rem;
+  }
+  .motto img, .about-description{
+    margin-left: 8px;
+  }
+
+  .about-description {
+    margin-bottom: 24px; 
+  }
+
+  .option {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding-left: 10px;
+    margin-bottom: 24px;
+  }
+
+  .option1, .option2 {
+    margin:  0;
+    padding: 0; 
+    width: 100%;
+  }
+
+  .option-item {
+    margin-bottom: 16px;
+  }
+  .option-links{
+    padding-inline-start: 0px;
+  }
+
+  .social-media {
+    justify-content: flex-start;
+    margin-left: 10px;
   }
 
 }
