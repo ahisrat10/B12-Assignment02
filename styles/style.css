@@ -422,7 +422,7 @@
   }
 
   .plant-img {
-    width: 345px;
+    width: 355px;
     height: 396px;
     margin-top: 0%;
   }
@@ -465,13 +465,13 @@
   }
 
   .card1, .card2, .card3 {
-    width: 350px;             
+    width: 360px;             
     height: 184px;             
     font-size: 1.25rem;       
   }
 
   .card3 {
-    width: 350px; 
+    width: 360px; 
     height: 184px;            
     font-size: 1.25rem;
   }
