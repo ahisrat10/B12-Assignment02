@@ -45,6 +45,7 @@
 /* nav bar styles */
 
 .navbar{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -172,7 +173,7 @@
 
   .banner-img {
     order: -1;
-    width: 100vw; 
+    width: 100%; 
     margin: 0;
     padding: 0;
   }
